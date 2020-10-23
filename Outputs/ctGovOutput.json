@@ -1,0 +1,295 @@
+{
+  "FullStudiesResponse":{
+    "APIVrs":"1.01.02",
+    "DataVrs":"2020:10:21 23:46:49.950",
+    "Expression":"NCT04573270",
+    "NStudiesAvail":355424,
+    "NStudiesFound":1,
+    "MinRank":1,
+    "MaxRank":1,
+    "NStudiesReturned":1,
+    "FullStudies":[
+      {
+        "Rank":1,
+        "Study":{
+          "ProtocolSection":{
+            "IdentificationModule":{
+              "NCTId":"NCT04573270",
+              "OrgStudyIdInfo":{
+                "OrgStudyId":"Pro00043080"
+              },
+              "Organization":{
+                "OrgFullName":"Thomas Advanced Medical LLC",
+                "OrgClass":"INDUSTRY"
+              },
+              "BriefTitle":"Mesenchymal Stem Cells for the Treatment of COVID-19",
+              "OfficialTitle":"A Pilot Phase Study Evaluating the Effects of a Single Mesenchymal Stem Cell Injection in Patients With Suspected or Confirmed COVID-19 Infection and Healthcare Providers Exposed to Coronavirus Patients"
+            },
+            "StatusModule":{
+              "StatusVerifiedDate":"September 2020",
+              "OverallStatus":"Completed",
+              "ExpandedAccessInfo":{
+                "HasExpandedAccess":"No"
+              },
+              "StartDateStruct":{
+                "StartDate":"April 24, 2020",
+                "StartDateType":"Actual"
+              },
+              "PrimaryCompletionDateStruct":{
+                "PrimaryCompletionDate":"August 20, 2020",
+                "PrimaryCompletionDateType":"Actual"
+              },
+              "CompletionDateStruct":{
+                "CompletionDate":"September 1, 2020",
+                "CompletionDateType":"Actual"
+              },
+              "StudyFirstSubmitDate":"September 23, 2020",
+              "StudyFirstSubmitQCDate":"September 30, 2020",
+              "StudyFirstPostDateStruct":{
+                "StudyFirstPostDate":"October 5, 2020",
+                "StudyFirstPostDateType":"Actual"
+              },
+              "LastUpdateSubmitDate":"September 30, 2020",
+              "LastUpdatePostDateStruct":{
+                "LastUpdatePostDate":"October 5, 2020",
+                "LastUpdatePostDateType":"Actual"
+              }
+            },
+            "SponsorCollaboratorsModule":{
+              "ResponsibleParty":{
+                "ResponsiblePartyType":"Sponsor"
+              },
+              "LeadSponsor":{
+                "LeadSponsorName":"Thomas Advanced Medical LLC",
+                "LeadSponsorClass":"INDUSTRY"
+              },
+              "CollaboratorList":{
+                "Collaborator":[
+                  {
+                    "CollaboratorName":"HeartStem Institute",
+                    "CollaboratorClass":"UNKNOWN"
+                  }
+                ]
+              }
+            },
+            "OversightModule":{
+              "IsFDARegulatedDrug":"Yes",
+              "IsFDARegulatedDevice":"No",
+              "IsUSExport":"Yes"
+            },
+            "DescriptionModule":{
+              "BriefSummary":"This double blind, placebo controlled, multi-arm, multi-site study investigates the safety and efficacy of stem cell therapy for the treatment of patients admitted to hospital suffering complications from COVID-19 and the treatment of healthy subjects (healthcare providers) for prophylactic effect following those patients.",
+              "DetailedDescription":"Recent preliminary data from Wuhan/China have claimed that intravenous injections of mesenchymal stem cells derived from human umbilical chords have resulted in complete recovery of COVID-19 infected elderly patients with respiratory failure.\n\nThis study investigates the efficacy and safety of a single umbilical cord derived stem cell intravenous injection in patients with suspected or confirmed COVID-19 infection with fever and respiratory illness.\n\nA second arm will test efficacy and safety of a single umbilical cord derived stem cell intravenous injection to healthcare providers at high exposure rates to COVID-19 infection."
+            },
+            "ConditionsModule":{
+              "ConditionList":{
+                "Condition":[
+                  "Covid19",
+                  "Prophylaxis"
+                ]
+              },
+              "KeywordList":{
+                "Keyword":[
+                  "stem cell therapy",
+                  "umbilical cord stem cells",
+                  "amniotic stem cells",
+                  "stem cells",
+                  "MSC",
+                  "Mesenchymal Stem Cell",
+                  "Medicinal Signaling Cell"
+                ]
+              }
+            },
+            "DesignModule":{
+              "StudyType":"Interventional",
+              "PhaseList":{
+                "Phase":[
+                  "Phase 1"
+                ]
+              },
+              "DesignInfo":{
+                "DesignAllocation":"Randomized",
+                "DesignInterventionModel":"Single Group Assignment",
+                "DesignInterventionModelDescription":"This study is a randomized assignment, double-blind, placebo-controlled, multi-arm, multi-site study located at Southern California Hospitals at Culver City and Hollywood.",
+                "DesignPrimaryPurpose":"Treatment",
+                "DesignMaskingInfo":{
+                  "DesignMasking":"Triple",
+                  "DesignWhoMaskedList":{
+                    "DesignWhoMasked":[
+                      "Participant",
+                      "Care Provider",
+                      "Investigator"
+                    ]
+                  }
+                }
+              },
+              "EnrollmentInfo":{
+                "EnrollmentCount":"40",
+                "EnrollmentType":"Actual"
+              }
+            },
+            "ArmsInterventionsModule":{
+              "ArmGroupList":{
+                "ArmGroup":[
+                  {
+                    "ArmGroupLabel":"COVID-19 Patients Experimental",
+                    "ArmGroupType":"Experimental",
+                    "ArmGroupDescription":"13 COVID-19 infected subjects (Patients admitted to hospital suffering complications from COVID-19) will be randomized and equally distributed between placebo and experimental intervention.",
+                    "ArmGroupInterventionList":{
+                      "ArmGroupInterventionName":[
+                        "Biological: PrimePro"
+                      ]
+                    }
+                  },{
+                    "ArmGroupLabel":"COVID-19 Patients Placebo",
+                    "ArmGroupType":"Placebo Comparator",
+                    "ArmGroupDescription":"13 COVID-19 infected subjects (Patients admitted to hospital suffering complications from COVID-19) will be randomized and equally distributed between placebo and experimental intervention.",
+                    "ArmGroupInterventionList":{
+                      "ArmGroupInterventionName":[
+                        "Other: Placebo"
+                      ]
+                    }
+                  },{
+                    "ArmGroupLabel":"Healthcare Providers Experimental",
+                    "ArmGroupType":"Experimental",
+                    "ArmGroupDescription":"7 healthy subjects (healthcare providers following patients admitted to hospital suffering complications from COVID-19) will be randomized and equally distributed between placebo and experimental intervention.",
+                    "ArmGroupInterventionList":{
+                      "ArmGroupInterventionName":[
+                        "Biological: PrimePro"
+                      ]
+                    }
+                  },{
+                    "ArmGroupLabel":"Healthcare Providers Placebo",
+                    "ArmGroupType":"Placebo Comparator",
+                    "ArmGroupDescription":"7 healthy subjects (healthcare providers following patients admitted to hospital suffering complications from COVID-19) will be randomized and equally distributed between placebo and experimental intervention.",
+                    "ArmGroupInterventionList":{
+                      "ArmGroupInterventionName":[
+                        "Other: Placebo"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "InterventionList":{
+                "Intervention":[
+                  {
+                    "InterventionType":"Biological",
+                    "InterventionName":"PrimePro",
+                    "InterventionDescription":"Intravenous Injection",
+                    "InterventionArmGroupLabelList":{
+                      "InterventionArmGroupLabel":[
+                        "COVID-19 Patients Experimental",
+                        "Healthcare Providers Experimental"
+                      ]
+                    }
+                  },{
+                    "InterventionType":"Other",
+                    "InterventionName":"Placebo",
+                    "InterventionDescription":"Intravenous Injection",
+                    "InterventionArmGroupLabelList":{
+                      "InterventionArmGroupLabel":[
+                        "COVID-19 Patients Placebo",
+                        "Healthcare Providers Placebo"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "OutcomesModule":{
+              "PrimaryOutcomeList":{
+                "PrimaryOutcome":[
+                  {
+                    "PrimaryOutcomeMeasure":"Survival Rates",
+                    "PrimaryOutcomeDescription":"Survival Rate in COVID-19 infected patients admitted to hospital for complications",
+                    "PrimaryOutcomeTimeFrame":"30 Days"
+                  },{
+                    "PrimaryOutcomeMeasure":"Contraction Rates",
+                    "PrimaryOutcomeDescription":"Contraction Rate of COVID-19 in healthy healthcare workers following patients admitted to hospital for complications due to COVID-19",
+                    "PrimaryOutcomeTimeFrame":"30 Days"
+                  }
+                ]
+              }
+            },
+            "EligibilityModule":{
+              "EligibilityCriteria":"Inclusion Criteria:\n\nAge 18 and older\nAbility to provide informed consent\n\nExclusion Criteria:\n\nActive or recent malignancy (within last 2 years)\nInability to provide informed consent\nCurrent enrollment in any other COVID-19 treatment study",
+              "HealthyVolunteers":"Accepts Healthy Volunteers",
+              "Gender":"All",
+              "MinimumAge":"18 Years",
+              "StdAgeList":{
+                "StdAge":[
+                  "Adult",
+                  "Older Adult"
+                ]
+              }
+            },
+            "ContactsLocationsModule":{
+              "OverallOfficialList":{
+                "OverallOfficial":[
+                  {
+                    "OverallOfficialName":"Ernst R Von Schwarz, MD, PhD",
+                    "OverallOfficialAffiliation":"HeartStem Institute, Southern California Hospital at Culver City",
+                    "OverallOfficialRole":"Principal Investigator"
+                  }
+                ]
+              },
+              "LocationList":{
+                "Location":[
+                  {
+                    "LocationFacility":"Southern California Hospital at Culver City / Southern California Hospital at Hollywood",
+                    "LocationCity":"Culver City",
+                    "LocationState":"California",
+                    "LocationZip":"92032",
+                    "LocationCountry":"United States"
+                  }
+                ]
+              }
+            },
+            "IPDSharingStatementModule":{
+              "IPDSharing":"No",
+              "IPDSharingDescription":"Data will be blinded and password protected. Research publications will be produced for medical journals. Participating Investigators will have password protected access only."
+            }
+          },
+          "DerivedSection":{
+            "MiscInfoModule":{
+              "VersionHolder":"October 22, 2020"
+            },
+            "ConditionBrowseModule":{
+              "ConditionBrowseLeafList":{
+                "ConditionBrowseLeaf":[
+                  {
+                    "ConditionBrowseLeafId":"M8866",
+                    "ConditionBrowseLeafName":"Infection",
+                    "ConditionBrowseLeafRelevance":"low"
+                  },{
+                    "ConditionBrowseLeafId":"M19074",
+                    "ConditionBrowseLeafName":"Coronavirus Infections",
+                    "ConditionBrowseLeafRelevance":"low"
+                  },{
+                    "ConditionBrowseLeafId":"M4951",
+                    "ConditionBrowseLeafName":"Communicable Diseases",
+                    "ConditionBrowseLeafRelevance":"low"
+                  }
+                ]
+              },
+              "ConditionBrowseBranchList":{
+                "ConditionBrowseBranch":[
+                  {
+                    "ConditionBrowseBranchAbbrev":"BC01",
+                    "ConditionBrowseBranchName":"Bacterial and Fungal Diseases"
+                  },{
+                    "ConditionBrowseBranchAbbrev":"All",
+                    "ConditionBrowseBranchName":"All Conditions"
+                  },{
+                    "ConditionBrowseBranchAbbrev":"BC02",
+                    "ConditionBrowseBranchName":"Viral Diseases"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
