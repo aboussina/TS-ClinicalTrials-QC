@@ -30,8 +30,6 @@ The program then merges these elements with the TS dataset to create an output d
 <head>
 <meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-<title>SAS Output</title>
-<style type="text/css">
 <!--
 .accessiblecaption
 {
@@ -1653,32 +1651,8 @@ color:#800080
 TD, TH {vertical-align: top }
 .stacked_cell{padding: 0 }
 -->
-</style>
-<script language="javascript" type="text/javascript">
-<!-- 
-function startup(){
 
-}
-function shutdown(){
 
-}
-
-//-->
-</script>
-
-</head>
-<body onload="startup()" onunload="shutdown()" class="body">
-
-<script language="javascript" type="text/javascript">
-<!-- 
-var _info = navigator.userAgent
-var _ie = (_info.indexOf("MSIE") > 0
-          && _info.indexOf("Win") > 0
-          && _info.indexOf("Windows 3.1") < 0);
-var _ie64 = _info.indexOf("x64") > 0
-
-//-->
-</script>
 
 <div class="branch">
 <a name="IDX"></a>
