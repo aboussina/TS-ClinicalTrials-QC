@@ -6,26 +6,30 @@ The accuracy of the Trial Summary (TS) dataset is a key requirement for FDA tech
 
 ctGovCheck.sas uses the ClinicalTrials.gov API (https://clinicaltrials.gov/api/gui) with the TS REGID in the query URL and parses the JSON response.  The following elements are extracted and processed to match CDISC controlled terminology:
 
-1.  EnrollmentCount (ACTSUB when EnrollmentType = "Actual")
-2.  MaximumAge (AGEMAX)
-3.  MinimumAge (AGEMIN)
-4.  LocationCountry (FCNTRY) (Note: the country values in ClinicalTrials.gov appear to utilize the STANAG 1059 coding standard instead of ISO 3166 or GENC, so a SAS format needs to be used to convert the LocationCountry values to the ISO 3166 3 letter code)
-5.  HealthyVolunteers (HLTSUBJI)
-6.  Condition (INDIC)
-7.  DesignInterventionModel (INTMODEL)
-8.  InterventionType (INTTYPE)
-9.  DesignAllocation (RANDOM)
-10. Gender (SEXPOP)
-11. LeadSponsorName (SPONSOR)
-12. StudyType (STYPE)
-13. DesignPrimaryPurpose (TINDTP)
-14. OfficialTitle (TITLE)
-15. Phase1 (TPHASE)
-16. OrgStudyId (STUDYID)
-17. InterventionName (TRT)
+ClinicalTrials.gov Term | CDISC TS Term
+------------------------|--------------
+EnrollmentCount | ACTSUB  (when EnrollmentType = "Actual")
+MaximumAge | AGEMAX
+MinimumAge | AGEMIN
+LocationCountry | FCNTRY (Note: the country values in ClinicalTrials.gov appear to utilize the STANAG 1059 coding standard instead of ISO 3166 or GENC, so a SAS format needs to be used to convert the LocationCountry values to the ISO 3166 3 letter code)
+HealthyVolunteers | HLTSUBJI
+Condition | INDIC
+DesignInterventionModel | INTMODEL
+InterventionType | INTTYPE
+DesignAllocation | RANDOM
+Gender | SEXPOP
+LeadSponsorName | SPONSOR
+StudyType | STYPE
+DesignPrimaryPurpose | TINDTP
+OfficialTitle | TITLE
+Phase1 | TPHASE
+OrgStudyId | STUDYID
+InterventionName | TRT
 
+<br/>
 The program then merges these elements with the TS dataset to create an output diagnostic file (in html and sas7bdat).
-
+<br/>
+<br/>
 <html>
 <head>
 <meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
@@ -1701,3 +1705,5 @@ TD, TH {vertical-align: top }
 # Usage
 
 The ctGovCheck macro can be called with arguments for the Libref of the source TS, the Libref for the outputs, and the name of a STANAG format.  See the runCtGovCheck.sas program for an example.  Included in this repo is a STANAG 1059 SAS format (STANAG1059.sas) and a synthetic TS dataset that can be used.  Also included is the program used to generate this synthetic TS which can be modified for testing.
+
+To run, clone this repo and run runCtGovCheck.sas with batch submit or in SAS interactive.  The synthetic TS in the SDTM folder can be replaced with real trial data for production use. 
